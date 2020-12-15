@@ -11,6 +11,10 @@
 		7427835B2589292E00038737 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7427835A2589292E00038737 /* ContentView.swift */; };
 		7427835D2589293300038737 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7427835C2589293300038737 /* Assets.xcassets */; };
 		742783602589293300038737 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7427835F2589293300038737 /* Preview Assets.xcassets */; };
+		7427836A25892DE500038737 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7427836925892DE500038737 /* NetworkManager.swift */; };
+		7427836E25892F7500038737 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7427836D25892F7500038737 /* PostData.swift */; };
+		74278372258933BC00038737 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74278371258933BC00038737 /* DetailView.swift */; };
+		74278376258936BA00038737 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74278375258936BA00038737 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		7427835C2589293300038737 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7427835F2589293300038737 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		742783612589293300038737 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7427836925892DE500038737 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		7427836D25892F7500038737 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		74278371258933BC00038737 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		74278375258936BA00038737 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +60,9 @@
 		742783572589292E00038737 /* HAXOR News SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				742783702589338C00038737 /* Views */,
+				7427836825892DCA00038737 /* Models */,
 				742783582589292E00038737 /* HAXOR_News_SwiftUIApp.swift */,
-				7427835A2589292E00038737 /* ContentView.swift */,
 				7427835C2589293300038737 /* Assets.xcassets */,
 				742783612589293300038737 /* Info.plist */,
 				7427835E2589293300038737 /* Preview Content */,
@@ -67,6 +76,25 @@
 				7427835F2589293300038737 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7427836825892DCA00038737 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7427836925892DE500038737 /* NetworkManager.swift */,
+				7427836D25892F7500038737 /* PostData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		742783702589338C00038737 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7427835A2589292E00038737 /* ContentView.swift */,
+				74278371258933BC00038737 /* DetailView.swift */,
+				74278375258936BA00038737 /* WebView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +166,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7427836A25892DE500038737 /* NetworkManager.swift in Sources */,
+				7427836E25892F7500038737 /* PostData.swift in Sources */,
 				7427835B2589292E00038737 /* ContentView.swift in Sources */,
+				74278376258936BA00038737 /* WebView.swift in Sources */,
+				74278372258933BC00038737 /* DetailView.swift in Sources */,
 				742783592589292E00038737 /* HAXOR_News_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
